@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    color: black;
 }
 
 .content{
@@ -15,19 +16,42 @@
     background-repeat: no-repeat;
     position: relative;
     background-size: cover;
-    margin-left: -10px;
+    margin-left: -8px;
     margin-top: -10px;
-    height: auto;
+    margin-bottom: -8px;
+    height: 103vh;
     width: 40vw;
+
 }
 
 .paragraph-container {
-    display: block;
+    display: flex;
+    justify-content:left;
+    text-align: justify;
     position: absolute;
-    background-color: blueviolet;
+    background: linear-gradient(90deg, rgb(164, 36, 189) 0%, rgb(233, 114, 254) 92%, rgb(234, 128, 252) 99%);
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 0;
+    height: auto;
     margin-top: -10px;
+    width: 61vw;
 }
 
+.main-text {
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    font-family: Merriweather;
+    color: rgb(13, 4, 4);
+    font-size: 18px;
+    box-shadow: 2px solid black;
+}
+
+.textboxes-container{
+    
+}
+
+.text-2{
+    color: black;
+}
