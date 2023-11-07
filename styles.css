@@ -53,7 +53,8 @@
     flex-flow: row wrap;
     justify-content: center;
     position: relative;
-    top: -530px;
+    top: -680px;
+    margin-left: -80px;
 }
 
 .text-2{
@@ -61,7 +62,7 @@
     margin-left: -138px;
 }
 
-@media ( max-width: 780px) {
+@media ( max-width: 1024px) {
     .some-container {
         flex-direction: column;
         align-items: center;
